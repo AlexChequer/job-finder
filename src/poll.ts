@@ -3,13 +3,14 @@ import { companies } from './companies.js';
 import { BOARD_PATH, EXPIRY_DAYS, KEEP_REMOTE, SAO_PAULO_ONLY, STATE_PATH } from './config.js';
 import { connectors } from './connectors/connector.js';
 import { fetchGupyPortal } from './connectors/gupyPortal.js';
+import { classifyByCourses } from './courses.js';
 import { fetchDescription } from './description.js';
 import { isEarlyCareer } from './keywords.js';
 import { isInSaoPaulo } from './location.js';
 import { loadState, saveState } from './state.js';
 import { summariesEnabled, summarizeJob } from './summarize.js';
 import { sendJob } from './telegram.js';
-import type { JobRecord, Posting } from './types.js';
+import type { BoardData, JobRecord, Posting } from './types.js';
 
 const SEND_DELAY_MS = 80;
 const SUMMARY_DELAY_MS = Number(process.env.SUMMARY_DELAY_MS ?? 4000);
@@ -45,30 +46,45 @@ async function fetchAllPostings(): Promise<Posting[]> {
   return all;
 }
 
-/** Generate AI summaries for jobs that don't have one yet, up to the run limit. */
-async function addSummaries(jobs: JobRecord[]): Promise<void> {
-  if (!summariesEnabled()) {
+/**
+ * Enrich board jobs in place: classify áreas from the courses named in the
+ * description, and generate an AI summary for jobs that still lack one. The
+ * description is fetched once and reused for both.
+ */
+async function enrichJobs(jobs: JobRecord[]): Promise<void> {
+  const canSummarize = summariesEnabled();
+  if (!canSummarize) {
     console.log('Summaries skipped — GEMINI_API_KEY not set.');
-    return;
   }
-  let attempts = 0;
-  let done = 0;
+  let summarized = 0;
+  let summaryAttempts = 0;
   for (const job of jobs) {
-    if (job.summary) continue;
-    if (attempts >= SUMMARY_LIMIT) break;
-    attempts += 1;
+    const needsAreas = job.areas.length === 0;
+    const needsSummary = canSummarize && !job.summary && summaryAttempts < SUMMARY_LIMIT;
+    if (!needsAreas && !needsSummary) continue;
+    let description = '';
     try {
-      const description = await fetchDescription(job);
-      if (description.length < MIN_DESCRIPTION_LENGTH) continue;
-      job.summary = await summarizeJob(job.title, description);
-      done += 1;
-      await delay(SUMMARY_DELAY_MS);
+      description = await fetchDescription(job);
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
-      console.warn(`  summary failed: ${job.company} — ${job.title} — ${message}`);
+      console.warn(`  description failed: ${job.company} — ${job.title} — ${message}`);
+    }
+    if (needsAreas) {
+      job.areas = classifyByCourses(description);
+    }
+    if (needsSummary && description.length >= MIN_DESCRIPTION_LENGTH) {
+      summaryAttempts += 1;
+      try {
+        job.summary = await summarizeJob(job.title, description);
+        summarized += 1;
+        await delay(SUMMARY_DELAY_MS);
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        console.warn(`  summary failed: ${job.company} — ${job.title} — ${message}`);
+      }
     }
   }
-  console.log(`Summarized ${done} jobs.`);
+  console.log(`Summarized ${summarized} jobs.`);
 }
 
 /** Send new postings to Telegram, pacing requests to stay under rate limits. */
@@ -98,19 +114,25 @@ async function main(): Promise<void> {
     console.log(`${earlyCareer.length} early-career postings, ${matched.length} in São Paulo.`);
   }
 
-  // Build the board, generate any missing summaries, then persist it.
+  // Build the board, classify + summarize, then keep only relevant jobs.
   const previousJobs = await loadPreviousJobs(BOARD_PATH);
   const board = buildBoard(matched, previousJobs, new Date(), EXPIRY_DAYS);
-  await addSummaries(board.jobs);
-  await saveBoard(BOARD_PATH, board);
+  await enrichJobs(board.jobs);
+
+  // Strict relevance gate — keep only jobs whose description named a target
+  // course; service, manual, and unparseable roles fall away here.
+  const relevant = board.jobs.filter((job) => job.areas.length > 0);
+  console.log(`${board.jobs.length - relevant.length} jobs dropped — no target course found.`);
+  const finalBoard: BoardData = { updatedAt: board.updatedAt, jobs: relevant };
+  await saveBoard(BOARD_PATH, finalBoard);
 
   // Report freshness: live in this poll vs. carried over vs. expired off.
   const liveIds = new Set(matched.map((posting) => posting.id));
-  const boardIds = new Set(board.jobs.map((job) => job.id));
-  const carriedOver = board.jobs.filter((job) => !liveIds.has(job.id)).length;
+  const boardIds = new Set(finalBoard.jobs.map((job) => job.id));
+  const carriedOver = finalBoard.jobs.filter((job) => !liveIds.has(job.id)).length;
   const expired = previousJobs.filter((job) => !boardIds.has(job.id)).length;
   console.log(
-    `Board: ${board.jobs.length} jobs — ${board.jobs.length - carriedOver} live, ` +
+    `Board: ${finalBoard.jobs.length} jobs — ${finalBoard.jobs.length - carriedOver} live, ` +
       `${carriedOver} carried over, ${expired} expired off.`,
   );
 
@@ -118,10 +140,10 @@ async function main(): Promise<void> {
   const state = await loadState(STATE_PATH);
   const firstRun = state.seenIds.length === 0;
   const seen = new Set(state.seenIds);
-  const newJobs = board.jobs.filter((job) => !seen.has(job.id));
+  const newJobs = finalBoard.jobs.filter((job) => !seen.has(job.id));
 
   if (firstRun) {
-    console.log(`First run: seeding ${board.jobs.length} postings, no notifications sent.`);
+    console.log(`First run: seeding ${finalBoard.jobs.length} postings, no notifications sent.`);
   } else {
     console.log(`${newJobs.length} new early-career postings to notify.`);
     await notify(newJobs, dryRun);
@@ -129,11 +151,13 @@ async function main(): Promise<void> {
 
   // Keep seen-state in step with the board: a job that expires off and later
   // reopens will alert again, and the file can't grow without bound.
-  const seenIds = board.jobs.map((job) => job.id);
+  const seenIds = finalBoard.jobs.map((job) => job.id);
   await saveState(STATE_PATH, { seenIds });
 
   const sent = firstRun ? 0 : newJobs.length;
-  console.log(`Done. Fetched ${allPostings.length}, matched ${board.jobs.length}, new ${sent}.`);
+  console.log(
+    `Done. Fetched ${allPostings.length}, matched ${finalBoard.jobs.length}, new ${sent}.`,
+  );
 }
 
 main().catch((error: unknown) => {

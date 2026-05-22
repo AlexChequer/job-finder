@@ -1,4 +1,4 @@
-import type { Area, Level } from './types.js';
+import type { Level } from './types.js';
 
 /** Lowercase and strip accents so "Estágio" and "estagio" compare equal. */
 export function normalize(text: string): string {
@@ -75,91 +75,4 @@ export function classifyLevel(title: string): Level {
   if (n.includes('trainee')) return 'trainee';
   if (contains(n, 'jr') || n.includes('junior')) return 'junior';
   return 'newgrad';
-}
-
-/** Role-area keyword sets, checked in order — first match wins. */
-const AREA_KEYWORDS: { area: Area; keywords: string[] }[] = [
-  {
-    area: 'dados',
-    keywords: [
-      'dados',
-      'data',
-      'analytics',
-      'business intelligence',
-      'machine learning',
-      'data science',
-      'ciencia de dados',
-      'estatist',
-    ],
-  },
-  {
-    area: 'engenharia',
-    keywords: [
-      'software',
-      'engenh',
-      'engineer',
-      'desenvolv',
-      'developer',
-      'programad',
-      'backend',
-      'back-end',
-      'back end',
-      'frontend',
-      'front-end',
-      'front end',
-      'fullstack',
-      'full stack',
-      'full-stack',
-      'mobile',
-      'devops',
-      'sre',
-      'infraestrutura',
-      'infrastructure',
-      'cloud',
-      'qualidade',
-      'quality',
-      'cyber',
-    ],
-  },
-  {
-    area: 'produto',
-    keywords: ['produto', 'product', 'design'],
-  },
-  {
-    area: 'negocios',
-    keywords: [
-      'comercial',
-      'vendas',
-      'sales',
-      'negocio',
-      'business',
-      'marketing',
-      'financ',
-      'contabil',
-      'fiscal',
-      'tributar',
-      'juridic',
-      'legal',
-      'recursos humanos',
-      'people',
-      'operac',
-      'operations',
-      'atendimento',
-      'customer',
-      'consultor',
-      'auditoria',
-      'risco',
-      'credito',
-      'investiment',
-    ],
-  },
-];
-
-/** Bucket a title into every broad role area it matches (at least one). */
-export function classifyAreas(title: string): Area[] {
-  const n = normalize(title);
-  const matched = AREA_KEYWORDS.filter(({ keywords }) =>
-    keywords.some((keyword) => n.includes(keyword)),
-  ).map(({ area }) => area);
-  return matched.length > 0 ? matched : ['outro'];
 }

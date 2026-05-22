@@ -27,6 +27,23 @@ async function leverDescription(token: string, id: string): Promise<string> {
   return `${data.descriptionPlain ?? ''} ${lists}`.trim();
 }
 
+/** Fetch one SmartRecruiters posting's description via the posting endpoint. */
+async function smartRecruitersDescription(token: string, id: string): Promise<string> {
+  const response = await fetch(
+    `https://api.smartrecruiters.com/v1/companies/${token}/postings/${id}`,
+  );
+  if (!response.ok) {
+    return '';
+  }
+  const data = (await response.json()) as {
+    jobAd?: { sections?: Record<string, { text?: string }> };
+  };
+  return Object.values(data.jobAd?.sections ?? {})
+    .map((section) => stripHtml(section.text ?? ''))
+    .join(' ')
+    .trim();
+}
+
 /** Fetch the full description text for a job, used as input for summarization. */
 export async function fetchDescription(job: JobRecord): Promise<string> {
   // Gupy postings carry their description inline from the portal API.
@@ -41,6 +58,9 @@ export async function fetchDescription(job: JobRecord): Promise<string> {
   }
   if (job.source === 'lever') {
     return leverDescription(token, nativeId);
+  }
+  if (job.source === 'smartrecruiters') {
+    return smartRecruitersDescription(token, nativeId);
   }
   return '';
 }

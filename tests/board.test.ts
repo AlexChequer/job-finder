@@ -24,7 +24,7 @@ function record(id: string, overrides: Partial<JobRecord> = {}): JobRecord {
   return {
     ...posting(id, 'Estágio'),
     level: 'estagio',
-    areas: ['outro'],
+    areas: ['negocios'],
     firstSeen: '2026-01-10',
     lastSeen: '2026-05-21',
     logo: '',
@@ -42,7 +42,7 @@ describe('buildBoard', () => {
     expect(board.jobs[0]).toMatchObject({
       id: 'a',
       level: 'estagio',
-      areas: ['dados'],
+      areas: [],
       firstSeen: '2026-05-21',
       lastSeen: '2026-05-21',
     });
@@ -104,7 +104,7 @@ describe('buildBoard', () => {
     const legacy = {
       ...posting('old', 'Estágio'),
       level: 'estagio',
-      areas: ['outro'],
+      areas: ['negocios'],
       firstSeen: '2026-01-01',
       logo: '',
       summary: '',

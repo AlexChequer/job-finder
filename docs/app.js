@@ -9,15 +9,16 @@ const LEVEL_LABELS = {
 };
 
 const AREA_LABELS = {
-  engenharia: 'Engenharia',
+  software: 'Software',
   dados: 'Dados',
   produto: 'Produto & Design',
+  engenharia: 'Engenharia',
   negocios: 'Negócios',
-  outro: 'Outros',
+  juridico: 'Jurídico',
 };
 
 /** The áreas the "Tech" umbrella filter expands to. */
-const TECH_AREAS = ['engenharia', 'dados'];
+const TECH_AREAS = ['software', 'dados'];
 
 const AVATAR_COLORS = [
   '#6366f1',

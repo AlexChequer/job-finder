@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { classifyAreas, classifyLevel, isEarlyCareer, normalize } from '../src/keywords.js';
+import { classifyLevel, isEarlyCareer, normalize } from '../src/keywords.js';
 
 describe('normalize', () => {
   it('lowercases and strips accents', () => {
@@ -51,18 +51,5 @@ describe('classifyLevel', () => {
     expect(classifyLevel('Analista Júnior')).toBe('junior');
     expect(classifyLevel('Backend Engineer Jr')).toBe('junior');
     expect(classifyLevel('New Grad Engineer')).toBe('newgrad');
-  });
-});
-
-describe('classifyAreas', () => {
-  it('buckets a title into every role area it matches', () => {
-    expect(classifyAreas('Estágio em Engenharia de Dados')).toEqual(['dados', 'engenharia']);
-    expect(classifyAreas('Desenvolvedor Backend Júnior')).toEqual(['engenharia']);
-    expect(classifyAreas('Analista Comercial Júnior')).toEqual(['negocios']);
-    expect(classifyAreas('Product Designer')).toEqual(['produto']);
-  });
-
-  it('falls back to "outro" when no area keyword matches', () => {
-    expect(classifyAreas('Analista Júnior')).toEqual(['outro']);
   });
 });

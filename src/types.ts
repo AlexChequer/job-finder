@@ -33,7 +33,7 @@ export interface Company {
 export type Level = 'estagio' | 'trainee' | 'aprendiz' | 'junior' | 'newgrad';
 
 /** Broad role area, derived from the job title. */
-export type Area = 'engenharia' | 'dados' | 'produto' | 'negocios' | 'outro';
+export type Area = 'software' | 'dados' | 'produto' | 'engenharia' | 'negocios' | 'juridico';
 
 /** A posting enriched with classification, recency, and an AI summary. */
 export interface JobRecord extends Posting {
