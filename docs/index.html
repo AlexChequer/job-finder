@@ -66,27 +66,34 @@
           </div>
           <div class="filter-group">
             <span class="filter-label">Empresa</span>
-            <select id="company" aria-label="Empresa">
-              <option value="">Todas as empresas</option>
-            </select>
+            <input
+              id="company"
+              class="text-input"
+              type="search"
+              list="company-options"
+              placeholder="Todas as empresas"
+              autocomplete="off"
+              aria-label="Empresa"
+            />
+            <datalist id="company-options"></datalist>
           </div>
           <div class="filter-group">
             <span class="filter-label">Período</span>
-            <select id="recency" aria-label="Período">
-              <option value="">Qualquer data</option>
-              <option value="1">Últimas 24h</option>
-              <option value="7">Últimos 7 dias</option>
-              <option value="30">Últimos 30 dias</option>
-            </select>
+            <div id="recency" class="chips" role="group" aria-label="Período">
+              <button type="button" class="chip active" data-value="">Qualquer</button>
+              <button type="button" class="chip" data-value="1">24h</button>
+              <button type="button" class="chip" data-value="7">7 dias</button>
+              <button type="button" class="chip" data-value="30">30 dias</button>
+            </div>
           </div>
           <div class="filter-group">
             <span class="filter-label">Ordenar por</span>
-            <select id="sort" aria-label="Ordenar">
-              <option value="balanced">Variedade</option>
-              <option value="recent">Mais recentes</option>
-              <option value="company">Empresa</option>
-              <option value="title">Cargo (A–Z)</option>
-            </select>
+            <div id="sort" class="chips" role="group" aria-label="Ordenar">
+              <button type="button" class="chip active" data-value="balanced">Variedade</button>
+              <button type="button" class="chip" data-value="recent">Recentes</button>
+              <button type="button" class="chip" data-value="company">Empresa</button>
+              <button type="button" class="chip" data-value="title">Cargo</button>
+            </div>
           </div>
 
           <button id="clear" type="button" class="clear-btn" hidden>Limpar filtros</button>

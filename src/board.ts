@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { companies } from './companies.js';
-import { classifyArea, classifyLevel } from './keywords.js';
+import { classifyAreas, classifyLevel } from './keywords.js';
 import type { BoardData, JobRecord, Posting } from './types.js';
 
 /** Logo URL for a company domain, via Google's favicon service. */
@@ -60,7 +60,7 @@ export function buildBoard(
     return {
       ...posting,
       level: classifyLevel(posting.title),
-      area: classifyArea(posting.title),
+      areas: classifyAreas(posting.title),
       firstSeen: previous?.firstSeen ?? today,
       lastSeen: today,
       logo: posting.logo || logoByCompany.get(posting.company) || '',

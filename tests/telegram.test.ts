@@ -11,7 +11,7 @@ function job(overrides: Partial<JobRecord> = {}): JobRecord {
     url: 'https://example.com/jobs/1',
     source: 'greenhouse',
     level: 'estagio',
-    area: 'engenharia',
+    areas: ['engenharia'],
     firstSeen: '2026-05-21',
     lastSeen: '2026-05-21',
     logo: '',

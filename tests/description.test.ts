@@ -11,7 +11,7 @@ const baseJob: JobRecord = {
   source: 'gupy',
   logo: '',
   level: 'estagio',
-  area: 'dados',
+  areas: ['dados'],
   firstSeen: '2026-05-21',
   lastSeen: '2026-05-21',
   summary: '',

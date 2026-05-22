@@ -217,7 +217,7 @@ body {
 }
 
 #search:focus,
-select:focus {
+.text-input:focus {
   outline: none;
   border-color: var(--accent);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
@@ -270,16 +270,25 @@ select:focus {
   border-color: var(--accent);
 }
 
-select {
+/* "Tech" umbrella chip — a quick-filter shortcut, subtly accented when idle. */
+.chip-tech {
+  color: var(--accent-soft-fg);
+  border-color: color-mix(in srgb, var(--accent) 32%, var(--border));
+}
+
+.text-input {
   width: 100%;
-  padding: 10px 12px;
+  padding: 11px 13px;
   font: inherit;
-  font-size: 13.5px;
+  font-size: 14px;
   color: var(--text);
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  cursor: pointer;
+}
+
+.text-input::placeholder {
+  color: var(--text-muted);
 }
 
 .clear-btn {

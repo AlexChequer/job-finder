@@ -1,5 +1,5 @@
 /** ATS platforms polled one company at a time. */
-export type AtsType = 'greenhouse' | 'lever';
+export type AtsType = 'greenhouse' | 'lever' | 'smartrecruiters';
 
 /** Where a posting came from — the per-company ATSs plus the Gupy network. */
 export type Source = AtsType | 'gupy';
@@ -38,7 +38,7 @@ export type Area = 'engenharia' | 'dados' | 'produto' | 'negocios' | 'outro';
 /** A posting enriched with classification, recency, and an AI summary. */
 export interface JobRecord extends Posting {
   level: Level;
-  area: Area;
+  areas: Area[];
   /** ISO date (YYYY-MM-DD) the tracker first saw this job. */
   firstSeen: string;
   /**

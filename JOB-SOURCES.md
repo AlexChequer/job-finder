@@ -27,6 +27,16 @@ Gupy from 255 → 315 postings (+10 in São Paulo). The Gupy public portal is a
 _curated subset_ of the network, not every company; `name`-keyword search tops
 out around 255–387 results per term, so Gupy is now close to its free ceiling.
 
+**New (2026-05-21):**
+
+- **SmartRecruiters connector** — `connectors/smartrecruiters.ts`, a per-company
+  ATS connector on the public Posting API (no auth). Companies use `ats:
+'smartrecruiters'` in `companies.ts`.
+- **Job freshness + expiry** — each `JobRecord` now carries a `lastSeen` date.
+  Jobs missing from a poll are carried over for `EXPIRY_DAYS` (config, default 7)
+  then dropped, so genuinely-closed postings fall off the board while a transient
+  per-company fetch failure no longer wipes that company's still-open jobs.
+
 ## The gap
 
 - **Greenhouse/Lever** have no network-wide search — each company must be added by
@@ -62,9 +72,20 @@ out around 255–387 results per term, so Gupy is now close to its free ceiling.
      captured from the browser — Manual task A.
 2. **More Greenhouse/Lever companies.** One line each in `companies.ts`. Needs a
    list of Brazilian company tokens — see Manual task B.
-3. **New ATS connectors.** Each unlocks a batch of companies: Workday
-   (`*.myworkdayjobs.com`), SmartRecruiters (has a public API), Abler
-   (`*.abler.com.br`), inhire (`*.inhire.app`).
+3. **New ATS connectors.** Each unlocks a batch of companies.
+   - **SmartRecruiters — done (2026-05-21).** `connectors/smartrecruiters.ts`
+     polls the public Posting API
+     (`api.smartrecruiters.com/v1/companies/{id}/postings`), no auth. Add a
+     company with one line in `companies.ts` (`ats: 'smartrecruiters'`).
+   - **inhire (`*.inhire.app`) — viable, needs a capture.** Brazilian tech ATS
+     (Loft, Dasa…). Career pages are public, but `api.inhire.app` requires an
+     `Authorization` header the career-page SPA fetches at runtime — capture it
+     from the browser (Manual task A). One capture may unlock every inhire
+     company at once, like the Gupy portal.
+   - **Abler (`*.abler.com.br`) — rejected (2026-05-21).** The `vagas.` and
+     `api.` subdomains both redirect to the marketing site; no public job API,
+     and Abler skews toward SMB / non-tech employers.
+   - **Workday (`*.myworkdayjobs.com`)** — still open; a per-tenant JSON API.
 4. **ProgramaThor / Brazilian dev boards** — 100% tech, has estágio/júnior
    filters, modest volume.
 5. **"Programa de estágio" season watcher** — branded annual programs (Nubank,
@@ -79,7 +100,8 @@ almost no estágio.
 
 ### A. Capture the CIEE / Nube job API (~10 min, highest leverage)
 
-1. Open the vacancy page — CIEE: `portal.ciee.org.br` · Nube: `nube.com.br`
+1. Open the vacancy page — CIEE: `portal.ciee.org.br` · Nube: `nube.com.br` ·
+   inhire: any company board, e.g. `jobs.inhire.app/loft`
 2. `F12` → **Network** tab → filter **Fetch/XHR**
 3. Reload, or click a filter / "Carregar mais"
 4. Find the request whose response is JSON full of jobs

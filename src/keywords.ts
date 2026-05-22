@@ -155,13 +155,11 @@ const AREA_KEYWORDS: { area: Area; keywords: string[] }[] = [
   },
 ];
 
-/** Bucket a title into a broad role area. */
-export function classifyArea(title: string): Area {
+/** Bucket a title into every broad role area it matches (at least one). */
+export function classifyAreas(title: string): Area[] {
   const n = normalize(title);
-  for (const { area, keywords } of AREA_KEYWORDS) {
-    if (keywords.some((keyword) => n.includes(keyword))) {
-      return area;
-    }
-  }
-  return 'outro';
+  const matched = AREA_KEYWORDS.filter(({ keywords }) =>
+    keywords.some((keyword) => n.includes(keyword)),
+  ).map(({ area }) => area);
+  return matched.length > 0 ? matched : ['outro'];
 }
