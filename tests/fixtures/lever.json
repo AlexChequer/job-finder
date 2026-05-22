@@ -1,0 +1,14 @@
+[
+  {
+    "id": "a1",
+    "text": "Estágio em Engenharia de Software",
+    "hostedUrl": "https://jobs.lever.co/acme/a1",
+    "categories": { "location": "São Paulo" }
+  },
+  {
+    "id": "b2",
+    "text": "Staff Engineer",
+    "hostedUrl": "https://jobs.lever.co/acme/b2",
+    "categories": null
+  }
+]

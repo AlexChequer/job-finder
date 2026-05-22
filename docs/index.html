@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jobfinder · vagas de início de carreira</title>
+    <meta
+      name="description"
+      content="Vagas de estágio, trainee e júnior nas melhores empresas do Brasil."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="/" aria-label="jobfinder">
+          <span class="brand-mark">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M9.5 3A2.5 2.5 0 0 0 7 5.5V7H4.5A2.5 2.5 0 0 0 2 9.5v9A2.5 2.5 0 0 0 4.5 21h15a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 19.5 7H17V5.5A2.5 2.5 0 0 0 14.5 3h-5Zm5 4h-5V5.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5V7Z"
+              />
+            </svg>
+          </span>
+          <span class="brand-name">job<span class="brand-accent">finder</span></span>
+        </a>
+        <a
+          class="topbar-link"
+          href="https://github.com/AlexChequer/job-finder"
+          target="_blank"
+          rel="noopener"
+          >GitHub ↗</a
+        >
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="page-head">
+        <h1 class="page-title">Vagas de <span class="accent">início de carreira</span></h1>
+        <p id="summary" class="page-stats">Carregando vagas…</p>
+      </div>
+
+      <div class="layout">
+        <aside class="sidebar">
+          <div class="search">
+            <svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true">
+              <path
+                d="M9 3a6 6 0 104.47 10.03l3.75 3.75 1.06-1.06-3.75-3.75A6 6 0 009 3zm0 1.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9z"
+              />
+            </svg>
+            <input id="search" type="search" placeholder="Buscar cargo…" autocomplete="off" />
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-label">Nível</span>
+            <div id="level-chips" class="chips"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Área</span>
+            <div id="area-chips" class="chips"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Empresa</span>
+            <select id="company" aria-label="Empresa">
+              <option value="">Todas as empresas</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Período</span>
+            <select id="recency" aria-label="Período">
+              <option value="">Qualquer data</option>
+              <option value="1">Últimas 24h</option>
+              <option value="7">Últimos 7 dias</option>
+              <option value="30">Últimos 30 dias</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">Ordenar por</span>
+            <select id="sort" aria-label="Ordenar">
+              <option value="balanced">Variedade</option>
+              <option value="recent">Mais recentes</option>
+              <option value="company">Empresa</option>
+              <option value="title">Cargo (A–Z)</option>
+            </select>
+          </div>
+
+          <button id="clear" type="button" class="clear-btn" hidden>Limpar filtros</button>
+        </aside>
+
+        <main class="main">
+          <p id="count" class="count"></p>
+          <div id="jobs" class="jobs"></div>
+          <p id="empty" class="empty" hidden>Nenhuma vaga encontrada. Tente ajustar os filtros.</p>
+        </main>
+      </div>
+    </div>
+
+    <footer class="footer">
+      Feito para ajudar quem está começando · atualizado automaticamente todos os dias ·
+      <a href="https://github.com/AlexChequer/job-finder">código aberto no GitHub</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

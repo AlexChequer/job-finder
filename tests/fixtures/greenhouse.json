@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "id": 111,
+      "title": "Software Engineering Intern",
+      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/111",
+      "location": { "name": "São Paulo, Brazil" }
+    },
+    {
+      "id": 222,
+      "title": "Senior Backend Engineer",
+      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/222",
+      "location": { "name": "Remote" }
+    },
+    {
+      "id": 333,
+      "title": "Product Designer",
+      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/333",
+      "location": null
+    }
+  ]
+}
