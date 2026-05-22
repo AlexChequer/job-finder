@@ -87,6 +87,14 @@ function el(tag, className, text) {
   return node;
 }
 
+/** Lowercase and strip accents, for loose text matching. */
+function normalizeText(text) {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/\p{Diacritic}/gu, '');
+}
+
 /** Build a toggle chip for a multi-select filter (Nível, Área). */
 function toggleChip(label, className, selected, key) {
   const chip = el('button', className, label);
@@ -154,6 +162,12 @@ function jobCard(job) {
   card.appendChild(logoTile(job));
 
   const body = el('div', 'job-body');
+
+  // Company name as an eyebrow above the title — skipped when the title
+  // already names it (e.g. "Grupo QuintoAndar | Copywriter Junior...").
+  if (job.company && !normalizeText(job.title).includes(normalizeText(job.company))) {
+    body.appendChild(el('div', 'job-company', job.company));
+  }
   body.appendChild(el('div', 'job-title', job.title));
 
   if (job.summary) {
@@ -169,8 +183,6 @@ function jobCard(job) {
 
   const meta = el('div', 'job-meta');
   meta.append(
-    el('span', 'company', job.company),
-    el('span', 'sep', '·'),
     el('span', null, job.location),
     el('span', 'sep', '·'),
     el('span', null, relativeLabel(job.firstSeen)),
