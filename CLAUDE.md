@@ -10,8 +10,8 @@ job board with AI-generated job summaries. Runs free on GitHub Actions.
 
 Done:
 
-- Daily poller (`src/poll.ts`) — 12 companies on Greenhouse/Lever, plus the
-  whole Gupy network via the portal search API.
+- Daily poller (`src/poll.ts`) — 26 companies on Greenhouse/Lever/SmartRecruiters,
+  plus the whole Gupy network via the portal search API.
 - São Paulo–city filter (`src/location.ts`) — board scoped to the city of São
   Paulo plus remote roles; toggle with `SAO_PAULO_ONLY` in `src/config.ts`.
 - Static filterable job board (`docs/`) — light theme, meant for GitHub Pages.
@@ -30,15 +30,17 @@ Pending — next steps, in order:
 
 1. fetches postings from every company's ATS and the Gupy-wide search (`src/connectors/`),
 2. keeps early-career titles, classifies level + area (`src/keywords.ts`),
-3. builds the board, carrying first-seen dates + summaries over (`src/board.ts`),
+3. builds the board — carries first-seen dates + summaries over, stamps
+   `lastSeen`, and expires jobs unseen for `EXPIRY_DAYS` (`src/board.ts`),
 4. generates AI summaries for new jobs (`src/summarize.ts` + `src/description.ts`),
 5. writes the board to `docs/jobs.json`,
 6. sends jobs not seen before to Telegram (`src/telegram.ts`),
 7. records seen ids in `data/seen.json` (`src/state.ts`).
 
 Per-company connectors share `ConnectorFn = (company) => Promise<Posting[]>`,
-registered in `src/connectors/connector.ts` — Greenhouse and Lever read public
-JSON APIs, one company at a time. Gupy is covered network-wide instead:
+registered in `src/connectors/connector.ts` — Greenhouse, Lever and
+SmartRecruiters read public JSON APIs, one company at a time. Gupy is covered
+network-wide instead:
 `connectors/gupyPortal.ts` queries Gupy's public portal search API
 (`portal.api.gupy.io`), one source for every company on Gupy. It searches a set
 of level keywords, drops "Banco de Talentos" pools, and dedups by job id. Job
@@ -50,8 +52,8 @@ fetches `docs/jobs.json` and filters client-side. GitHub Pages serves it.
 ## Key files
 
 - `src/poll.ts` — pipeline entry point
-- `src/companies.ts` — the 12 Greenhouse/Lever companies (adding one is a single line)
-- `src/connectors/` — `connector.ts` (registry), `greenhouse.ts`, `lever.ts`, `gupyPortal.ts`, `http.ts`
+- `src/companies.ts` — the 26 Greenhouse/Lever/SmartRecruiters companies (adding one is a single line)
+- `src/connectors/` — `connector.ts` (registry), `greenhouse.ts`, `lever.ts`, `smartrecruiters.ts`, `gupyPortal.ts`, `http.ts`
 - `src/keywords.ts` — early-career filter + level/area classification (PT-aware)
 - `src/summarize.ts` — Gemini client · `src/description.ts` — per-job description fetch
 - `src/board.ts` · `src/state.ts` · `src/telegram.ts` · `src/config.ts` · `src/text.ts`

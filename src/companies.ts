@@ -26,7 +26,12 @@ export const companies: Company[] = [
   { name: 'Stone', ats: 'greenhouse', token: 'stone', domain: 'stone.com.br' },
   { name: 'BTG Pactual', ats: 'greenhouse', token: 'btgpactual', domain: 'btgpactual.com' },
   { name: 'Banco Inter', ats: 'greenhouse', token: 'inter', domain: 'bancointer.com.br' },
-  { name: 'Arco Educação', ats: 'greenhouse', token: 'arcoeducacao', domain: 'arcoeducacao.com.br' },
+  {
+    name: 'Arco Educação',
+    ats: 'greenhouse',
+    token: 'arcoeducacao',
+    domain: 'arcoeducacao.com.br',
+  },
   { name: 'Zup Innovation', ats: 'greenhouse', token: 'zupinnovation', domain: 'zup.com.br' },
   { name: 'Hotmart', ats: 'greenhouse', token: 'hotmartcareersbr', domain: 'hotmart.com' },
   { name: 'Jusbrasil', ats: 'greenhouse', token: 'jusbrasil', domain: 'jusbrasil.com.br' },

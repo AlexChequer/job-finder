@@ -13,13 +13,14 @@ lean: public APIs only, no scraping that breaks easily, no LinkedIn.
 
 Two source types feed the board today:
 
-- **12 companies on Greenhouse/Lever** — polled one at a time (`src/companies.ts`).
+- **26 companies on Greenhouse/Lever/SmartRecruiters** — polled one at a time
+  (`src/companies.ts`).
 - **The entire Gupy network** — `src/connectors/gupyPortal.ts`, one network-wide
   search API covering every company on Gupy.
 
 A São Paulo–city filter (`src/location.ts`, toggled by `SAO_PAULO_ONLY` in
-`src/config.ts`; remote jobs kept) trims the board. Latest run: **335 early-career
-postings found → 118 in São Paulo**.
+`src/config.ts`; remote jobs kept) trims the board. Latest run: **437 early-career
+postings found → 179 in São Paulo**.
 
 **Fixed (2026-05-21):** `gupyPortal.ts` was dropping `vacancy_type_apprentice`
 (Jovem Aprendiz) jobs — its `KEEP_TYPES` set omitted that type. Adding it lifted
@@ -36,6 +37,10 @@ out around 255–387 results per term, so Gupy is now close to its free ceiling.
   Jobs missing from a poll are carried over for `EXPIRY_DAYS` (config, default 7)
   then dropped, so genuinely-closed postings fall off the board while a transient
   per-company fetch failure no longer wipes that company's still-open jobs.
+- **+14 companies** — verified Brazilian boards added to `companies.ts`: on
+  Greenhouse — Stone, BTG Pactual, Banco Inter, Arco Educação, Zup Innovation,
+  Hotmart, Jusbrasil; on Lever — Flash, Banco BV, CI&T, Insider, TRACTIAN,
+  Stark Bank; on SmartRecruiters — Experian. Board: 118 → 179 São Paulo jobs.
 
 ## The gap
 
