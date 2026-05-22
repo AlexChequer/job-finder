@@ -198,4 +198,20 @@ describe('fetchGupyPortal', () => {
 
     expect(posting?.company).toBe('Granturquesa');
   });
+
+  it('drops jobs from inactive career pages (malformed subdomain)', async () => {
+    stubPortal({
+      estágio: [
+        job({ id: 1 }),
+        job({
+          id: 2,
+          jobUrl: 'https://acme&55&inactive.gupy.io/job/x==?jobBoardSource=gupy_portal',
+        }),
+      ],
+    });
+
+    const postings = await fetchGupyPortal();
+
+    expect(postings.map((posting) => posting.id)).toEqual(['gupy:1']);
+  });
 });

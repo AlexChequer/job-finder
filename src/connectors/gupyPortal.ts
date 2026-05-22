@@ -146,6 +146,20 @@ function tokenFromUrl(jobUrl: string): string {
   }
 }
 
+/**
+ * The portal also indexes jobs from inactive career pages, encoding them with a
+ * malformed subdomain like "company&123&inactive.gupy.io" — links that never
+ * resolve. A live career page has a plain subdomain slug.
+ */
+function isActiveCareerPage(jobUrl: string): boolean {
+  try {
+    const subdomain = new URL(jobUrl).hostname.split('.')[0] ?? '';
+    return /^[a-z0-9][a-z0-9_-]*$/.test(subdomain);
+  } catch {
+    return false;
+  }
+}
+
 /** Build a human-readable location from a portal job. */
 function formatLocation(job: PortalJob): string {
   if (job.isRemoteWork) {
@@ -189,5 +203,5 @@ export async function fetchGupyPortal(): Promise<Posting[]> {
       console.warn(`  Gupy portal "${keyword}": failed — ${message}`);
     }
   }
-  return [...byId.values()].map(toPosting);
+  return [...byId.values()].filter((job) => isActiveCareerPage(job.jobUrl)).map(toPosting);
 }
