@@ -5,7 +5,7 @@ import type { JobRecord } from './types.js';
 async function greenhouseDescription(token: string, id: string): Promise<string> {
   const response = await fetch(`https://boards-api.greenhouse.io/v1/boards/${token}/jobs/${id}`);
   if (!response.ok) {
-    return '';
+    throw new Error(`HTTP ${response.status}`);
   }
   const data = (await response.json()) as { content?: string };
   return stripHtml(data.content ?? '');
@@ -15,7 +15,7 @@ async function greenhouseDescription(token: string, id: string): Promise<string>
 async function leverDescription(token: string, id: string): Promise<string> {
   const response = await fetch(`https://api.lever.co/v0/postings/${token}/${id}?mode=json`);
   if (!response.ok) {
-    return '';
+    throw new Error(`HTTP ${response.status}`);
   }
   const data = (await response.json()) as {
     descriptionPlain?: string;
@@ -33,7 +33,7 @@ async function smartRecruitersDescription(token: string, id: string): Promise<st
     `https://api.smartrecruiters.com/v1/companies/${token}/postings/${id}`,
   );
   if (!response.ok) {
-    return '';
+    throw new Error(`HTTP ${response.status}`);
   }
   const data = (await response.json()) as {
     jobAd?: { sections?: Record<string, { text?: string }> };

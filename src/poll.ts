@@ -16,6 +16,7 @@ const SEND_DELAY_MS = 80;
 const SUMMARY_DELAY_MS = Number(process.env.SUMMARY_DELAY_MS ?? 4000);
 const SUMMARY_LIMIT = Number(process.env.SUMMARY_LIMIT ?? 150);
 const MIN_DESCRIPTION_LENGTH = 60;
+const DESCRIPTION_DELAY_MS = 500;
 
 function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -46,10 +47,27 @@ async function fetchAllPostings(): Promise<Posting[]> {
   return all;
 }
 
+/** Fetch a job's description, retrying once if the connection drops. */
+async function loadDescription(job: JobRecord): Promise<string> {
+  try {
+    return await fetchDescription(job);
+  } catch {
+    await delay(2000);
+    try {
+      return await fetchDescription(job);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.warn(`  description failed: ${job.company} — ${job.title} — ${message}`);
+      return '';
+    }
+  }
+}
+
 /**
  * Enrich board jobs in place: classify áreas from the courses named in the
  * description, and generate an AI summary for jobs that still lack one. The
- * description is fetched once and reused for both.
+ * description is fetched once and reused for both; network fetches are paced
+ * so the ATS hosts don't drop connections under rapid-fire requests.
  */
 async function enrichJobs(jobs: JobRecord[]): Promise<void> {
   const canSummarize = summariesEnabled();
@@ -62,13 +80,9 @@ async function enrichJobs(jobs: JobRecord[]): Promise<void> {
     const needsAreas = job.areas.length === 0;
     const needsSummary = canSummarize && !job.summary && summaryAttempts < SUMMARY_LIMIT;
     if (!needsAreas && !needsSummary) continue;
-    let description = '';
-    try {
-      description = await fetchDescription(job);
-    } catch (error) {
-      const message = error instanceof Error ? error.message : String(error);
-      console.warn(`  description failed: ${job.company} — ${job.title} — ${message}`);
-    }
+    // Gupy postings carry the description inline; others need a network call.
+    const networkFetch = !job.description;
+    const description = await loadDescription(job);
     if (needsAreas) {
       job.areas = classifyByCourses(description);
     }
@@ -82,6 +96,8 @@ async function enrichJobs(jobs: JobRecord[]): Promise<void> {
         const message = error instanceof Error ? error.message : String(error);
         console.warn(`  summary failed: ${job.company} — ${job.title} — ${message}`);
       }
+    } else if (networkFetch) {
+      await delay(DESCRIPTION_DELAY_MS);
     }
   }
   console.log(`Summarized ${summarized} jobs.`);
