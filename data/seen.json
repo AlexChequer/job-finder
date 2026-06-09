@@ -2,6 +2,7 @@
   "seenIds": [
     "greenhouse:arcoeducacao:5993693004",
     "greenhouse:btgpactual:5729886004",
+    "greenhouse:btgpactual:5817863004",
     "greenhouse:btgpactual:5836537004",
     "greenhouse:btgpactual:5838492004",
     "greenhouse:btgpactual:5988441004",
@@ -55,18 +56,19 @@
     "gupy:7438202",
     "gupy:7525263",
     "gupy:9547872",
+    "lever:bv:b2f23829-5f4c-4e36-b7da-fa84f51e5fec",
     "lever:flashapp:257f9d41-47a5-404e-bdbf-0fb83f33f777",
     "lever:insiderone:b1a79e35-f2db-4f95-a48e-16a086a29de9",
     "lever:starkbank:2acf5bbc-913b-42ca-86ff-cc7f58998ffa",
     "lever:starkbank:74d749df-6b36-4d42-a26f-94f4aac2f1e4",
     "smartrecruiters:experian:744000108859346",
     "smartrecruiters:experian:744000119203552",
-    "smartrecruiters:experian:744000123266729",
     "smartrecruiters:experian:744000126733979",
     "smartrecruiters:experian:744000126778909",
     "smartrecruiters:experian:744000128252039",
     "smartrecruiters:experian:744000128263910",
     "smartrecruiters:experian:744000129563229",
-    "smartrecruiters:experian:744000129792440"
+    "smartrecruiters:experian:744000129792440",
+    "smartrecruiters:experian:744000130897789"
   ]
 }
