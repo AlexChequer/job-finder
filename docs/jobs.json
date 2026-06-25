@@ -1,23 +1,6 @@
 {
-  "updatedAt": "2026-06-24T11:41:10.044Z",
+  "updatedAt": "2026-06-25T11:35:44.521Z",
   "jobs": [
-    {
-      "id": "greenhouse:arcoeducacao:5993693004",
-      "company": "Arco Educação",
-      "title": "Analista de Backoffice Júnior  (Temporário - 06 meses)",
-      "location": "São Paulo, Curitiba ou Fortaleza",
-      "url": "https://job-boards.greenhouse.io/arcoeducacao/jobs/5993693004",
-      "source": "greenhouse",
-      "level": "junior",
-      "areas": [
-        "engenharia",
-        "negocios"
-      ],
-      "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-18",
-      "logo": "https://www.google.com/s2/favicons?domain=arcoeducacao.com.br&sz=128",
-      "summary": "Analista de Backoffice Júnior parametrizará notas e informações financeiras, mapeará melhorias e dará treinamentos, exigindo superior completo em áreas correlatas."
-    },
     {
       "id": "greenhouse:arcoeducacao:6015669004",
       "company": "Arco Educação",
@@ -31,7 +14,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-15",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=arcoeducacao.com.br&sz=128",
       "summary": "O Analista de Projetos em Tecnologia Júnior impulsionará a transformação tecnológica na produção de conteúdo didático, usando IA e plataformas digitais, exigindo excelência operacional e diagnóstico de problemas."
     },
@@ -47,7 +30,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-18",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=arcoeducacao.com.br&sz=128",
       "summary": "Analista de Suporte Operacional e ERP Júnior investiga e corrige inconsistências sistêmicas, operando múltiplos ERPs, exigindo ensino superior e Excel avançado."
     },
@@ -63,7 +46,7 @@
         "software"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista Júnior de BI extrairá, organizará e validará dados, construirá relatórios e automatizará tarefas usando SQL para apoiar decisões."
     },
@@ -79,7 +62,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-09",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista de Compliance JR atua na governança de parceiros do varejo, realizando análises, relatórios e gestão de consequências, exigindo conhecimento regulatório e boa comunicação."
     },
@@ -111,7 +94,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista Júnior processará pagamentos, conciliará contas, gerenciará fornecedores e elaborará relatórios financeiros, exigindo organização e atenção a detalhes."
     },
@@ -143,7 +126,7 @@
         "juridico"
       ],
       "firstSeen": "2026-06-04",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista Jurídico JR dará suporte regulatório em mercado de capitais, elaborando e revisando contratos de investimento, exigindo conhecimento da CVM."
     },
@@ -175,7 +158,7 @@
         "juridico"
       ],
       "firstSeen": "2026-06-10",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário jurídico auxiliará na gestão de processos judiciais de crédito consignado, FGTS e veículos, exigindo análise, comunicação e organização."
     },
@@ -191,9 +174,25 @@
         "negocios"
       ],
       "firstSeen": "2026-06-12",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário Comercial B2C apoiará assessores com clientes e propostas de investimento, exigindo curso superior em finanças e comunicação."
+    },
+    {
+      "id": "greenhouse:btgpactual:6100411004",
+      "company": "BTG Pactual",
+      "title": "Estágio em Capital / Basiléia",
+      "location": "São Paulo",
+      "url": "https://carreiras.btgpactual.com/vagas?gh_jid=6100411004",
+      "source": "greenhouse",
+      "level": "estagio",
+      "areas": [
+        "negocios"
+      ],
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
+      "summary": "O estagiário apoiará no cálculo de RWA de Mercado e apuração de índices de Basileia, exigindo atenção a dados e análise."
     },
     {
       "id": "greenhouse:c6bank:4616927005",
@@ -207,7 +206,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-08",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Pessoa Consultora Comercial Júnior venderá crédito com garantia de imóvel, gerenciando carteira de clientes e parceiros, exigindo comunicação e negociação."
     },
@@ -223,7 +222,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-20",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Analista de Negócios Jr apoiará a área comercial com demandas operacionais, acompanhamento de parcelas e criação de controles, exigindo organização e proatividade."
     },
@@ -239,7 +238,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-17",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Analista de Operações Junior apoiará controle de custos e orçamentos, criando dashboards e relatórios, exigindo Excel avançado, Power BI e SQL."
     },
@@ -273,7 +272,7 @@
         "dados"
       ],
       "firstSeen": "2026-05-21",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Analista de Automação e IA Júnior desenvolverá soluções de automação e IA, pipelines de dados e dashboards, usando Power Platform, Python e BigQuery."
     },
@@ -289,7 +288,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-02",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Assessor de Investimentos PJ Júnior prospecta e relaciona-se com clientes, ofertando produtos, exigindo CPA-20, experiência PJ e perfil comercial."
     },
@@ -305,25 +304,9 @@
         "software"
       ],
       "firstSeen": "2026-06-24",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=rdstation.com&sz=128",
       "summary": "A vaga de Engenharia de Plataforma Júnior – Observabilidade busca profissionais para atuar com soluções tecnológicas, exigindo inquietude, aprendizado contínuo e responsabilidade."
-    },
-    {
-      "id": "greenhouse:stone:7647709003",
-      "company": "Stone",
-      "title": "Advogado Regulatório | Júnior (Presencial/SP)",
-      "location": "Sao Paulo, Sao Paulo, Brasil",
-      "url": "https://job-boards.greenhouse.io/stone/jobs/7647709003",
-      "source": "greenhouse",
-      "level": "junior",
-      "areas": [
-        "juridico"
-      ],
-      "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-18",
-      "logo": "https://www.google.com/s2/favicons?domain=stone.com.br&sz=128",
-      "summary": "Advogado Regulatório Júnior na Stone atuará com direito regulatório, exigindo proatividade, trabalho em equipe e foco no cliente."
     },
     {
       "id": "greenhouse:stone:7777471003",
@@ -337,7 +320,7 @@
         "juridico"
       ],
       "firstSeen": "2026-06-19",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=stone.com.br&sz=128",
       "summary": "Advogado Regulatório Júnior acompanha e analisa pautas regulatórias, exigindo proatividade, comunicação e capacidade analítica para viabilizar soluções financeiras."
     },
@@ -353,7 +336,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-21",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista Júnior BDO na XP Inc. atuará no suporte a Assessores de Investimentos, exigindo organização, boa comunicação e interesse no mercado financeiro."
     },
@@ -370,7 +353,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-21",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista Fiscal Júnior apura, recolhe e declara tributos, monitora riscos/oportunidades fiscais e otimiza processos, exigindo mente aberta e espírito empreendedor."
     },
@@ -386,7 +369,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-21",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista Júnior de Portfolio Solutions otimiza alocação de investimentos, conectando negócio, IA e dados, exigindo foco em governança e qualidade."
     },
@@ -402,7 +385,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-21",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "A pessoa atuará como Inside Sales Junior, conectando carteiras de investimento a assessores, exigindo perfil comercial, curiosidade técnica e interesse em investimentos."
     },
@@ -435,45 +418,9 @@
         "negocios"
       ],
       "firstSeen": "2026-06-12",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista Junior de ESG elaborará relatórios de sustentabilidade, coletará e analisará dados, e monitorará tendências, exigindo conhecimento em frameworks ESG e análise de dados."
-    },
-    {
-      "id": "greenhouse:zupinnovation:7770456003",
-      "company": "Zup Innovation",
-      "title": "Estagiário(a) - Talent Sourcer",
-      "location": "Remoto",
-      "url": "https://job-boards.greenhouse.io/zupinnovation/jobs/7770456003",
-      "source": "greenhouse",
-      "level": "estagio",
-      "areas": [
-        "negocios",
-        "dados",
-        "software"
-      ],
-      "firstSeen": "2026-06-18",
-      "lastSeen": "2026-06-18",
-      "logo": "https://www.google.com/s2/favicons?domain=zup.com.br&sz=128",
-      "summary": "Estagiário(a) Talent Sourcer apoiará na identificação e engajamento de talentos, realizando pesquisas e triagens, exigindo curiosidade, análise e interesse em tecnologia."
-    },
-    {
-      "id": "lever:flashapp:257f9d41-47a5-404e-bdbf-0fb83f33f777",
-      "company": "Flash",
-      "title": "Estágio | Projetos de Marketing (Foco em Operações & IA)",
-      "location": "Remoto",
-      "url": "https://jobs.lever.co/flashapp/257f9d41-47a5-404e-bdbf-0fb83f33f777",
-      "source": "lever",
-      "level": "estagio",
-      "areas": [
-        "engenharia",
-        "negocios",
-        "produto"
-      ],
-      "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-18",
-      "logo": "https://www.google.com/s2/favicons?domain=flashapp.com.br&sz=128",
-      "summary": "Estagiário em Projetos de Marketing (Operações & IA) apoiará a gestão de RH/financeiro, exigindo criatividade, pragmatismo e foco em resultados."
     },
     {
       "id": "lever:flashapp:8f00b2a4-ec28-43fc-91ff-028a6c9acaef",
@@ -503,7 +450,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=useinsider.com&sz=128",
       "summary": "O Estagiário de Customer Experience auxiliará equipes de marketing e engajamento do cliente, necessitando de agilidade e visão para otimizar plataformas de dados e personalização."
     },
@@ -519,7 +466,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=starkbank.com&sz=128",
       "summary": "Estagiário(a) de Controladoria apoiará fechamentos contábeis, conciliações, análises financeiras e documentação, exigindo organização e atenção a detalhes."
     },
@@ -535,7 +482,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "O Consultor de Canais e Parcerias Junior apoiará o crescimento de receita via parceiros, gerenciando carteiras e monitorando performance, exigindo perfil analítico, comunicativo e proativo."
     },
@@ -551,7 +498,7 @@
         "software"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Analista de TI Júnior prestará suporte técnico, analisando incidentes e falhas em sistemas, usando SQL, APIs REST e Jira, com foco em melhoria contínua."
     },
@@ -567,25 +514,9 @@
         "software"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Analista de Dados Jr levantará requisitos, desenvolverá pipelines, criará relatórios/dashboards e resolverá incidentes, exigindo SQL, visualização de dados e programação básica."
-    },
-    {
-      "id": "smartrecruiters:experian:744000128252039",
-      "company": "Experian",
-      "title": "PV | Advogado Júnior ",
-      "location": "São Paulo, , Brazil",
-      "url": "https://jobs.smartrecruiters.com/experian/744000128252039",
-      "source": "smartrecruiters",
-      "level": "junior",
-      "areas": [
-        "juridico"
-      ],
-      "firstSeen": "2026-05-27",
-      "lastSeen": "2026-06-18",
-      "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
-      "summary": "O Advogado Júnior conduzirá processos judiciais/administrativos (Direito Civil, Consumidor), elaborará peças e apoiará áreas internas, exigindo experiência em instituições financeiras."
     },
     {
       "id": "smartrecruiters:experian:744000129563229",
@@ -615,7 +546,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-03",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Analista de Cobrança Junior gerenciará carteira de clientes, baixando pagamentos, realizando conciliações e negativações, exigindo organização e atendimento ao cliente."
     },
@@ -631,7 +562,7 @@
         "software"
       ],
       "firstSeen": "2026-06-09",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Analista de Atendimento Júnior prestará suporte técnico a clientes e produtos, solucionando incidentes e documentando processos, exigindo formação em TI, análise de dados e comunicação."
     },
@@ -648,7 +579,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-16",
-      "lastSeen": "2026-06-24",
+      "lastSeen": "2026-06-25",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Analista de Soluções Júnior acompanha backlog, elabora requisitos e testa entregas, exigindo análise de dados, organização e boa comunicação."
     }
