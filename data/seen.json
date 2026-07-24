@@ -1,6 +1,5 @@
 {
   "seenIds": [
-    "greenhouse:arcoeducacao:6015669004",
     "greenhouse:arcoeducacao:6114866004",
     "greenhouse:btgpactual:5729886004",
     "greenhouse:btgpactual:5750941004",
@@ -16,9 +15,9 @@
     "greenhouse:btgpactual:6109602004",
     "greenhouse:btgpactual:6118241004",
     "greenhouse:btgpactual:6118814004",
+    "greenhouse:btgpactual:6123262004",
     "greenhouse:c6bank:4616927005",
     "greenhouse:c6bank:4695798005",
-    "greenhouse:c6bank:4698431005",
     "greenhouse:c6bank:4701692005",
     "greenhouse:c6bank:4709748005",
     "greenhouse:c6bank:4714074005",
@@ -45,6 +44,7 @@
     "lever:insiderone:b1a79e35-f2db-4f95-a48e-16a086a29de9",
     "lever:starkbank:2acf5bbc-913b-42ca-86ff-cc7f58998ffa",
     "smartrecruiters:experian:744000108859346",
-    "smartrecruiters:experian:744000135021449"
+    "smartrecruiters:experian:744000135021449",
+    "smartrecruiters:experian:744000139367649"
   ]
 }
