@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T09:56:54.120Z",
+  "updatedAt": "2026-08-14T09:53:28.747Z",
   "jobs": [
     {
       "id": "greenhouse:btgpactual:5729886004",
@@ -31,7 +31,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-17",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista de Dados JR em Compliance Engineering identifica e resolve problemas com dados, criando análises, visualizações e automações, exigindo proatividade e adaptabilidade."
     },
@@ -63,7 +63,7 @@
         "juridico"
       ],
       "firstSeen": "2026-06-10",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário jurídico auxiliará na gestão de processos judiciais de crédito consignado, FGTS e veículos, exigindo análise, comunicação e organização."
     },
@@ -79,7 +79,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-12",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário Comercial B2C apoiará assessores com clientes e propostas de investimento, exigindo curso superior em finanças e comunicação."
     },
@@ -95,7 +95,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-01",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário em Execução Onshore controlará custos logísticos e financeiros, interagindo com fornecedores e equipes internas, exigindo interesse em Comércio Exterior."
     },
@@ -129,7 +129,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-01",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estágio em pesquisa de fundos e renda fixa, apoiando análises e automação com IA, exigindo organização, análise e domínio de Office."
     },
@@ -145,7 +145,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-15",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário em Capacitação e Treinamento apoiará a logística, organização e execução de treinamentos, exigindo boa comunicação e interesse em mercado financeiro."
     },
@@ -178,9 +178,9 @@
         "negocios"
       ],
       "firstSeen": "2026-07-17",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
-      "summary": ""
+      "summary": "Analista Compliance JR aprova materiais de marketing financeiro, monitora publicações e elabora reportes, exigindo Direito/Economia, inglês avançado e conhecimento regulatório."
     },
     {
       "id": "greenhouse:btgpactual:6118814004",
@@ -195,9 +195,9 @@
         "dados"
       ],
       "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
-      "summary": ""
+      "summary": "Estagiário de IA e ML desenvolverá produtos com LLMs e Machine Learning, precisando de Python, raciocínio lógico e noções de estatística."
     },
     {
       "id": "greenhouse:btgpactual:6123262004",
@@ -212,7 +212,7 @@
         "produto"
       ],
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": ""
     },
@@ -228,9 +228,25 @@
         "negocios"
       ],
       "firstSeen": "2026-08-04",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário em Macro Research auxiliará na análise e projeção de indicadores econômicos, exigindo Economia, Excel, R e Inglês avançados."
+    },
+    {
+      "id": "greenhouse:btgpactual:6143604004",
+      "company": "BTG Pactual",
+      "title": "Estágio em Auditoria Interna de Tecnologia",
+      "location": "São Paulo",
+      "url": "https://carreiras.btgpactual.com/vagas?gh_jid=6143604004",
+      "source": "greenhouse",
+      "level": "estagio",
+      "areas": [
+        "software"
+      ],
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
+      "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
+      "summary": ""
     },
     {
       "id": "greenhouse:c6bank:4616927005",
@@ -244,7 +260,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-08",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Pessoa Consultora Comercial Júnior venderá crédito com garantia de imóvel, gerenciando carteira de clientes e parceiros, exigindo comunicação e negociação."
     },
@@ -261,7 +277,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-14",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": ""
     },
@@ -277,7 +293,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-02",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Assessor de Investimentos PJ Júnior prospecta e relaciona-se com clientes, ofertando produtos, exigindo CPA-20, experiência PJ e perfil comercial."
     },
@@ -293,7 +309,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-11",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": ""
     },
@@ -309,7 +325,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-11",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": ""
     },
@@ -326,7 +342,7 @@
         "negocios"
       ],
       "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": ""
     },
@@ -342,9 +358,9 @@
         "negocios"
       ],
       "firstSeen": "2026-08-06",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
-      "summary": ""
+      "summary": "Analista de Operações Junior controlará e validará ajustes, analisará movimentações financeiras e elaborará relatórios, exigindo formação superior em áreas correlatas."
     },
     {
       "id": "greenhouse:c6bank:4721095005",
@@ -376,7 +392,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-30",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=bancointer.com.br&sz=128",
       "summary": "Estagiário de Financial Partner apoiará o controle financeiro e análise de resultados, usando Power BI, Excel e IA, desenvolvendo habilidades analíticas e de comunicação."
     },
@@ -392,9 +408,9 @@
         "negocios"
       ],
       "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=rdstation.com&sz=128",
-      "summary": ""
+      "summary": "Analista de Implementação Júnior auxiliará clientes com soluções, exigindo comunicação, organização e proatividade para resolver problemas e garantir o sucesso do cliente."
     },
     {
       "id": "greenhouse:rdstation:8700211002",
@@ -408,9 +424,9 @@
         "negocios"
       ],
       "firstSeen": "2026-08-13",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=rdstation.com&sz=128",
-      "summary": ""
+      "summary": "Analista de Implementação Júnior auxiliará clientes com soluções TOTVS, exigindo inteligência humana, protagonismo, foco em resultados e bem-estar integral."
     },
     {
       "id": "greenhouse:xpinc:8005975002",
@@ -426,7 +442,7 @@
         "negocios"
       ],
       "firstSeen": "2026-08-06",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário de Risco de Mercado Trading monitora, analisa e gerencia riscos de mesas de negociação, apoiando decisões e garantindo crescimento sustentável."
     },
@@ -443,7 +459,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-21",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista Fiscal Júnior apura, recolhe e declara tributos, monitora riscos/oportunidades fiscais e otimiza processos, exigindo mente aberta e espírito empreendedor."
     },
@@ -464,23 +480,6 @@
       "summary": ""
     },
     {
-      "id": "greenhouse:xpinc:8589199002",
-      "company": "XP Inc",
-      "title": "Analista Junior de ESG ",
-      "location": "São Paulo, SP",
-      "url": "https://job-boards.greenhouse.io/xpinc/jobs/8589199002",
-      "source": "greenhouse",
-      "level": "junior",
-      "areas": [
-        "engenharia",
-        "negocios"
-      ],
-      "firstSeen": "2026-06-12",
-      "lastSeen": "2026-08-07",
-      "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
-      "summary": "Analista Junior de ESG elaborará relatórios de sustentabilidade, coletará e analisará dados, e monitorará tendências, exigindo conhecimento em frameworks ESG e análise de dados."
-    },
-    {
       "id": "greenhouse:xpinc:8618202002",
       "company": "XP Inc",
       "title": "Estagiário(a) | Global Markets (Tesouraria)",
@@ -492,7 +491,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-03",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário(a) em Global Markets (Tesouraria) atuará na análise e gestão de portfólio, combinando mercado financeiro e energia, exigindo perfil analítico e curiosidade intelectual."
     },
@@ -508,7 +507,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-23",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário de Investment Banking (DCM) na XP Inc. atuará com finanças, exigindo ambição, foco no cliente e mente aberta."
     },
@@ -524,7 +523,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-09",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário(a) em Análise de Crédito apoiará análises, acompanhará comitês e estruturará estudos, exigindo raciocínio crítico e paixão por profundidade analítica."
     },
@@ -540,7 +539,7 @@
         "juridico"
       ],
       "firstSeen": "2026-07-11",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário jurídico em Societário e M&A apoiará governança corporativa, reorganizações e operações, exigindo curso de Direito e interesse na área."
     },
@@ -558,7 +557,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-15",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário(a) na Corretora Institucional da XP, dará suporte a brokers e clientes, exigindo dinamismo, interesse em mercado financeiro, tecnologia e IA."
     },
@@ -575,7 +574,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista de Negócios Jr. alavancará resultados com insights de dados, participando da estratégia e apresentações gerenciais, exigindo ambição e mente aberta."
     },
@@ -592,7 +591,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "O Business Analyst Jr. alavancará resultados com insights de dados, apresentações gerenciais, projeções e acompanhamento de KPIs estratégicos."
     },
@@ -608,25 +607,9 @@
         "negocios"
       ],
       "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário(a) Corporate Desk irá organizar e automatizar processos, transformando dados dispersos em relatórios consolidados, aprendendo sobre operações de captação."
-    },
-    {
-      "id": "greenhouse:xpinc:8658926002",
-      "company": "XP Inc",
-      "title": "Estagiário em Segurança da Informação ",
-      "location": "São Paulo, SP",
-      "url": "https://job-boards.greenhouse.io/xpinc/jobs/8658926002",
-      "source": "greenhouse",
-      "level": "estagio",
-      "areas": [
-        "software"
-      ],
-      "firstSeen": "2026-08-05",
-      "lastSeen": "2026-08-07",
-      "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
-      "summary": "Estagiário em Segurança da Informação desenvolverá e manterá robôs RPA para automação de acessos, criando dashboards e indicadores, exigindo paixão por tecnologia e automação."
     },
     {
       "id": "greenhouse:xpinc:8660575002",
@@ -640,7 +623,7 @@
         "dados"
       ],
       "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista de Business Analytics Jr. na XP Inc. irá gerar insights de dados para alavancar resultados e participar da estratégia de negócios."
     },
@@ -656,7 +639,7 @@
         "negocios"
       ],
       "firstSeen": "2026-08-01",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": ""
     },
@@ -673,7 +656,7 @@
         "produto"
       ],
       "firstSeen": "2026-08-06",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": ""
     },
@@ -695,6 +678,22 @@
       "summary": "Estagiário em Automação Low/No Code apoiará o desenvolvimento e manutenção de soluções digitais com Power Platform, exigindo cursos de Engenharia/TI e proatividade."
     },
     {
+      "id": "lever:bv:a0877fc0-82af-49fc-9fdc-acca90e3c6f9",
+      "company": "Banco BV",
+      "title": "Jovem Aprendiz | Cyber Security",
+      "location": "São Paulo",
+      "url": "https://jobs.lever.co/bv/a0877fc0-82af-49fc-9fdc-acca90e3c6f9",
+      "source": "lever",
+      "level": "aprendiz",
+      "areas": [
+        "software"
+      ],
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14",
+      "logo": "https://www.google.com/s2/favicons?domain=bancobv.com.br&sz=128",
+      "summary": ""
+    },
+    {
       "id": "lever:flashapp:32390e4d-e6d5-408b-90a8-6d43ebbaf957",
       "company": "Flash",
       "title": "Executivo(a) Comercial Junior",
@@ -706,7 +705,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-28",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=flashapp.com.br&sz=128",
       "summary": "Executivo(a) Comercial Junior venderá soluções de RH/financeiro, exigindo criatividade, pragmatismo, trabalho em equipe e foco em resultados para impactar clientes."
     },
@@ -722,7 +721,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=useinsider.com&sz=128",
       "summary": "O Estagiário de Customer Experience auxiliará equipes de marketing e engajamento do cliente, necessitando de agilidade e visão para otimizar plataformas de dados e personalização."
     },
@@ -738,7 +737,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Analista de Comunicação e Treinamento Comercial Júnior (PcD) apoiará a equipe de vendas na criação e gestão de conteúdos, treinamentos e comunicações. Requer ensino superior e boa comunicação."
     },
@@ -754,25 +753,9 @@
         "software"
       ],
       "firstSeen": "2026-07-29",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Desenvolvedor Python Júnior (vaga afirmativa para pessoas negras) para criar/manter crawlers e APIs, exigindo Python, AWS e bancos de dados."
-    },
-    {
-      "id": "smartrecruiters:experian:744000140710289",
-      "company": "Experian",
-      "title": "Product Designer Júnior - Vaga Afirmativa para Mulheres",
-      "location": "Remoto",
-      "url": "https://jobs.smartrecruiters.com/experian/744000140710289",
-      "source": "smartrecruiters",
-      "level": "junior",
-      "areas": [
-        "produto"
-      ],
-      "firstSeen": "2026-07-31",
-      "lastSeen": "2026-08-07",
-      "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
-      "summary": "Product Designer Júnior (mulheres) apoiará a criação de experiências digitais, usando Figma e Design System, com pesquisa, prototipagem e análise de dados."
     },
     {
       "id": "smartrecruiters:experian:744000141563619",
@@ -786,7 +769,7 @@
         "dados"
       ],
       "firstSeen": "2026-08-05",
-      "lastSeen": "2026-08-13",
+      "lastSeen": "2026-08-14",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Analista Cientista de Dados Jr. apoiará a construção de soluções antifraude, extraindo, analisando e modelando dados, com foco em biometria e machine learning."
     }
