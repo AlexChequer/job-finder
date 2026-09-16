@@ -12,7 +12,6 @@
     "greenhouse:btgpactual:6174674004",
     "greenhouse:c6bank:4616927005",
     "greenhouse:c6bank:4701692005",
-    "greenhouse:c6bank:4718565005",
     "greenhouse:c6bank:4721089005",
     "greenhouse:c6bank:4725832005",
     "greenhouse:c6bank:4727330005",
@@ -22,13 +21,11 @@
     "greenhouse:ifoodcarreiras:8736975002",
     "greenhouse:inter:4723996005",
     "greenhouse:rdstation:8700211002",
-    "greenhouse:xpinc:8457026002",
     "greenhouse:xpinc:8499039002",
     "greenhouse:xpinc:8522696002",
     "greenhouse:xpinc:8618202002",
     "greenhouse:xpinc:8618232002",
     "greenhouse:xpinc:8632906002",
-    "greenhouse:xpinc:8634785002",
     "greenhouse:xpinc:8639452002",
     "greenhouse:xpinc:8656813002",
     "greenhouse:xpinc:8708554002",
@@ -43,10 +40,11 @@
     "greenhouse:xpinc:8780004002",
     "greenhouse:xpinc:8784494002",
     "greenhouse:xpinc:8810191002",
+    "greenhouse:xpinc:8811344002",
+    "greenhouse:xpinc:8811996002",
     "lever:flashapp:32390e4d-e6d5-408b-90a8-6d43ebbaf957",
     "lever:flashapp:4e387e0d-2df6-44ce-a0a5-2e20ea40dcdb",
     "lever:insiderone:b1a79e35-f2db-4f95-a48e-16a086a29de9",
-    "smartrecruiters:experian:744000139367649",
-    "smartrecruiters:experian:744000140328439"
+    "smartrecruiters:experian:744000139367649"
   ]
 }
