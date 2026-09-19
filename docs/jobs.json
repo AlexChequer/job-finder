@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T13:18:12.704Z",
+  "updatedAt": "2026-09-19T12:48:50.047Z",
   "jobs": [
     {
       "id": "greenhouse:btgpactual:6105170004",
@@ -31,7 +31,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-15",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário em Capacitação e Treinamento apoiará a logística, organização e execução de treinamentos, exigindo boa comunicação e interesse em mercado financeiro."
     },
@@ -48,7 +48,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-17",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista Compliance JR aprova materiais de marketing financeiro, monitora publicações e elabora reportes, exigindo Direito/Economia, inglês avançado e conhecimento regulatório."
     },
@@ -65,7 +65,7 @@
         "produto"
       ],
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista Júnior de Inbound Marketing opera automação, cria LPs, gerencia leads e campanhas, usando ferramentas de marketing, Excel e inglês."
     },
@@ -82,7 +82,7 @@
         "produto"
       ],
       "firstSeen": "2026-08-21",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista Júnior de Mídia dará suporte operacional em campanhas digitais, monitorando e otimizando performance, exigindo conhecimento em Ads, Excel e perfil analítico."
     },
@@ -98,7 +98,7 @@
         "software"
       ],
       "firstSeen": "2026-08-14",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário em Auditoria Interna de Tecnologia apoiará análises de processos, riscos e controles de TI, interagindo com diversas áreas do banco."
     },
@@ -147,7 +147,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-08",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Pessoa Consultora Comercial Júnior venderá crédito com garantia de imóvel, gerenciando carteira de clientes e parceiros, exigindo comunicação e negociação."
     },
@@ -163,7 +163,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-02",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Assessor de Investimentos PJ Júnior prospecta e relaciona-se com clientes, ofertando produtos, exigindo CPA-20, experiência PJ e perfil comercial."
     },
@@ -213,7 +213,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-03",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "O Analista de Operações Junior gerenciará a jornada de empréstimos imobiliários, analisando documentos, acompanhando registros e monitorando indicadores."
     },
@@ -229,9 +229,9 @@
         "negocios"
       ],
       "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
-      "summary": ""
+      "summary": "Analista de Operações Junior analisa documentação de clientes PJ para prevenir lavagem de dinheiro, exigindo graduação em Direito/Administração/Engenharia."
     },
     {
       "id": "greenhouse:c6bank:4730397005",
@@ -245,7 +245,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-12",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": ""
     },
@@ -262,7 +262,7 @@
         "software"
       ],
       "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=ifood.com.br&sz=128",
       "summary": ""
     },
@@ -299,6 +299,23 @@
       "summary": "Analista de Implementação Júnior auxiliará clientes com soluções TOTVS, exigindo inteligência humana, protagonismo, foco em resultados e bem-estar integral."
     },
     {
+      "id": "greenhouse:stone:7998490003",
+      "company": "Stone",
+      "title": "Analista de Dados e Indicadores Júnior",
+      "location": "Remoto",
+      "url": "https://job-boards.greenhouse.io/stone/jobs/7998490003",
+      "source": "greenhouse",
+      "level": "junior",
+      "areas": [
+        "negocios",
+        "dados"
+      ],
+      "firstSeen": "2026-09-19",
+      "lastSeen": "2026-09-19",
+      "logo": "https://www.google.com/s2/favicons?domain=stone.com.br&sz=128",
+      "summary": ""
+    },
+    {
       "id": "greenhouse:xpinc:8499039002",
       "company": "XP Inc",
       "title": "Analista de Gestão de Incidentes Jr | Vaga Exclusiva para PCD",
@@ -310,7 +327,7 @@
         "software"
       ],
       "firstSeen": "2026-08-26",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista de Gestão de Incidentes Jr monitora, registra e coordena a resolução de incidentes de TI, exigindo paixão por tecnologia, resolução de problemas e trabalho em equipe."
     },
@@ -343,7 +360,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-03",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário(a) em Global Markets (Tesouraria) atuará na análise e gestão de portfólio, combinando mercado financeiro e energia, exigindo perfil analítico e curiosidade intelectual."
     },
@@ -393,7 +410,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-18",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário(a) Corporate Desk irá organizar e automatizar processos, transformando dados dispersos em relatórios consolidados, aprendendo sobre operações de captação."
     },
@@ -459,7 +476,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": ""
     },
@@ -491,7 +508,7 @@
         "negocios"
       ],
       "firstSeen": "2026-08-28",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário em Banking conecta clientes a soluções financeiras, precisando de curiosidade, análise, comunicação e interesse no mercado."
     },
@@ -523,7 +540,7 @@
         "software"
       ],
       "firstSeen": "2026-09-03",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": ""
     },
@@ -555,7 +572,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-03",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": ""
     },
@@ -572,7 +589,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-12",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário de Estruturação apoiará a criação de soluções financeiras inovadoras, exigindo raciocínio analítico e interesse em mercado de capitais."
     },
@@ -588,7 +605,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-15",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista Júnior de Dados e Estratégia de Campanhas potencializará resultados de incentivos, analisando dados financeiros e comerciais, construindo dashboards e relatórios."
     },
@@ -604,7 +621,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-16",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "O Analista Júnior de Comunicação Interna conectará a estratégia com a execução, alinhando a comunicação para assessores, exigindo clareza e organização."
     },
@@ -620,7 +637,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-16",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "O Analista Júnior de Inside Sales distribuirá produtos de trading (Ações, ETFs, Derivativos) para clientes XP, apoiando assessores e operadores com foco no cliente."
     },
@@ -653,7 +670,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=bancobv.com.br&sz=128",
       "summary": ""
     },
@@ -669,7 +686,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-28",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=flashapp.com.br&sz=128",
       "summary": "Executivo(a) Comercial Junior venderá soluções de RH/financeiro, exigindo criatividade, pragmatismo, trabalho em equipe e foco em resultados para impactar clientes."
     },
@@ -685,7 +702,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=flashapp.com.br&sz=128",
       "summary": ""
     },
@@ -701,7 +718,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=useinsider.com&sz=128",
       "summary": "O Estagiário de Customer Experience auxiliará equipes de marketing e engajamento do cliente, necessitando de agilidade e visão para otimizar plataformas de dados e personalização."
     },
@@ -717,7 +734,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-19",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Analista de Comunicação e Treinamento Comercial Júnior (PcD) apoiará a equipe de vendas na criação e gestão de conteúdos, treinamentos e comunicações. Requer ensino superior e boa comunicação."
     }
