@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-09-24T13:57:00.786Z",
+  "updatedAt": "2026-09-25T14:21:40.409Z",
   "jobs": [
+    {
+      "id": "greenhouse:btgpactual:5971130004",
+      "company": "BTG Pactual",
+      "title": "Analista de Reconciliação Financeira Jr",
+      "location": "São Paulo",
+      "url": "https://carreiras.btgpactual.com/vagas?gh_jid=5971130004",
+      "source": "greenhouse",
+      "level": "junior",
+      "areas": [
+        "dados",
+        "software",
+        "negocios"
+      ],
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-09-25",
+      "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
+      "summary": "O Analista de Reconciliação Financeira Jr garante a consistência de dados financeiros, controlando e organizando informações, com foco em melhoria contínua e uso de tecnologia."
+    },
     {
       "id": "greenhouse:btgpactual:6106172004",
       "company": "BTG Pactual",
@@ -13,7 +31,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-15",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário em Capacitação e Treinamento apoiará a logística, organização e execução de treinamentos, exigindo boa comunicação e interesse em mercado financeiro."
     },
@@ -30,7 +48,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-17",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista Compliance JR aprova materiais de marketing financeiro, monitora publicações e elabora reportes, exigindo Direito/Economia, inglês avançado e conhecimento regulatório."
     },
@@ -47,7 +65,7 @@
         "produto"
       ],
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista Júnior de Inbound Marketing opera automação, cria LPs, gerencia leads e campanhas, usando ferramentas de marketing, Excel e inglês."
     },
@@ -64,7 +82,7 @@
         "produto"
       ],
       "firstSeen": "2026-08-21",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Analista Júnior de Mídia dará suporte operacional em campanhas digitais, monitorando e otimizando performance, exigindo conhecimento em Ads, Excel e perfil analítico."
     },
@@ -80,7 +98,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-24",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": ""
     },
@@ -96,9 +114,25 @@
         "software"
       ],
       "firstSeen": "2026-08-14",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
       "summary": "Estagiário em Auditoria Interna de Tecnologia apoiará análises de processos, riscos e controles de TI, interagindo com diversas áreas do banco."
+    },
+    {
+      "id": "greenhouse:btgpactual:6164513004",
+      "company": "BTG Pactual",
+      "title": "Analista de Operações Jr | Middle International",
+      "location": "São Paulo",
+      "url": "https://carreiras.btgpactual.com/vagas?gh_jid=6164513004",
+      "source": "greenhouse",
+      "level": "junior",
+      "areas": [
+        "negocios"
+      ],
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-09-25",
+      "logo": "https://www.google.com/s2/favicons?domain=btgpactual.com&sz=128",
+      "summary": ""
     },
     {
       "id": "greenhouse:c6bank:4616927005",
@@ -112,7 +146,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-08",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Pessoa Consultora Comercial Júnior venderá crédito com garantia de imóvel, gerenciando carteira de clientes e parceiros, exigindo comunicação e negociação."
     },
@@ -128,7 +162,7 @@
         "negocios"
       ],
       "firstSeen": "2026-06-02",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Assessor de Investimentos PJ Júnior prospecta e relaciona-se com clientes, ofertando produtos, exigindo CPA-20, experiência PJ e perfil comercial."
     },
@@ -161,7 +195,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": "Analista de Operações Junior analisa documentação de clientes PJ para prevenir lavagem de dinheiro, exigindo graduação em Direito/Administração/Engenharia."
     },
@@ -177,7 +211,24 @@
         "negocios"
       ],
       "firstSeen": "2026-09-12",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
+      "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
+      "summary": ""
+    },
+    {
+      "id": "greenhouse:c6bank:4737668005",
+      "company": "C6 Bank",
+      "title": "Analista de Operações Júnior | Sustentação RPA (COE RPA)",
+      "location": "São Paulo, Brazil",
+      "url": "https://job-boards.greenhouse.io/c6bank/jobs/4737668005",
+      "source": "greenhouse",
+      "level": "junior",
+      "areas": [
+        "software",
+        "negocios"
+      ],
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=c6bank.com.br&sz=128",
       "summary": ""
     },
@@ -227,7 +278,7 @@
         "software"
       ],
       "firstSeen": "2026-08-26",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista de Gestão de Incidentes Jr monitora, registra e coordena a resolução de incidentes de TI, exigindo paixão por tecnologia, resolução de problemas e trabalho em equipe."
     },
@@ -243,43 +294,9 @@
         "negocios"
       ],
       "firstSeen": "2026-07-03",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário(a) em Global Markets (Tesouraria) atuará na análise e gestão de portfólio, combinando mercado financeiro e energia, exigindo perfil analítico e curiosidade intelectual."
-    },
-    {
-      "id": "greenhouse:xpinc:8618232002",
-      "company": "XP Inc",
-      "title": "Estagiário IB | DCM",
-      "location": "São Paulo, SP",
-      "url": "https://job-boards.greenhouse.io/xpinc/jobs/8618232002",
-      "source": "greenhouse",
-      "level": "estagio",
-      "areas": [
-        "negocios"
-      ],
-      "firstSeen": "2026-07-23",
-      "lastSeen": "2026-09-18",
-      "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
-      "summary": "Estagiário de Investment Banking (DCM) na XP Inc. atuará com finanças, exigindo ambição, foco no cliente e mente aberta."
-    },
-    {
-      "id": "greenhouse:xpinc:8632906002",
-      "company": "XP Inc",
-      "title": "Estagiario(a) | Corretora Institucional",
-      "location": "São Paulo, SP",
-      "url": "https://job-boards.greenhouse.io/xpinc/jobs/8632906002",
-      "source": "greenhouse",
-      "level": "estagio",
-      "areas": [
-        "dados",
-        "software",
-        "negocios"
-      ],
-      "firstSeen": "2026-07-15",
-      "lastSeen": "2026-09-18",
-      "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
-      "summary": "Estagiário(a) na Corretora Institucional da XP, dará suporte a brokers e clientes, exigindo dinamismo, interesse em mercado financeiro, tecnologia e IA."
     },
     {
       "id": "greenhouse:xpinc:8639452002",
@@ -293,7 +310,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-18",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Estagiário(a) Corporate Desk irá organizar e automatizar processos, transformando dados dispersos em relatórios consolidados, aprendendo sobre operações de captação."
     },
@@ -309,24 +326,7 @@
         "dados"
       ],
       "firstSeen": "2026-09-21",
-      "lastSeen": "2026-09-24",
-      "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
-      "summary": ""
-    },
-    {
-      "id": "greenhouse:xpinc:8733176002",
-      "company": "XP Inc",
-      "title": "Estágio em Diagnóstico e Melhoria Contínua",
-      "location": "São Paulo, SP",
-      "url": "https://job-boards.greenhouse.io/xpinc/jobs/8733176002",
-      "source": "greenhouse",
-      "level": "estagio",
-      "areas": [
-        "dados",
-        "negocios"
-      ],
-      "firstSeen": "2026-09-15",
-      "lastSeen": "2026-09-18",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": ""
     },
@@ -342,7 +342,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista de Operações de Folha Jr. (PCD) sustentará e evoluirá processos de RH, garantindo excelência, eficiência e melhorias contínuas."
     },
@@ -374,7 +374,7 @@
         "software"
       ],
       "firstSeen": "2026-09-03",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "Analista de Automação Júnior (PCD) apoiará desenvolvimento e manutenção de rotinas automatizadas, scripts e integrações, otimizando processos e colaborando com equipes."
     },
@@ -439,7 +439,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-16",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "O Analista Júnior de Comunicação Interna conectará a estratégia com a execução, alinhando a comunicação para assessores, exigindo clareza e organização."
     },
@@ -455,25 +455,40 @@
         "negocios"
       ],
       "firstSeen": "2026-09-16",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": "O Analista Júnior de Inside Sales distribuirá produtos de trading (Ações, ETFs, Derivativos) para clientes XP, apoiando assessores e operadores com foco no cliente."
     },
     {
-      "id": "greenhouse:zupinnovation:7994023003",
-      "company": "Zup Innovation",
-      "title": "Sales Operations Analyst Junior ",
-      "location": "Remoto",
-      "url": "https://job-boards.greenhouse.io/zupinnovation/jobs/7994023003",
+      "id": "greenhouse:xpinc:8831621002",
+      "company": "XP Inc",
+      "title": "Product Design Junior | Plataforma Cadastro ",
+      "location": "São Paulo, SP",
+      "url": "https://job-boards.greenhouse.io/xpinc/jobs/8831621002",
       "source": "greenhouse",
       "level": "junior",
       "areas": [
-        "engenharia",
-        "negocios"
+        "produto"
       ],
-      "firstSeen": "2026-09-17",
-      "lastSeen": "2026-09-18",
-      "logo": "https://www.google.com/s2/favicons?domain=zup.com.br&sz=128",
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-09-25",
+      "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
+      "summary": ""
+    },
+    {
+      "id": "greenhouse:xpinc:8843085002",
+      "company": "XP Inc",
+      "title": "Analista Júnior em Infraestrutura | SRE",
+      "location": "São Paulo, SP",
+      "url": "https://job-boards.greenhouse.io/xpinc/jobs/8843085002",
+      "source": "greenhouse",
+      "level": "junior",
+      "areas": [
+        "software"
+      ],
+      "firstSeen": "2026-09-25",
+      "lastSeen": "2026-09-25",
+      "logo": "https://www.google.com/s2/favicons?domain=xpi.com.br&sz=128",
       "summary": ""
     },
     {
@@ -488,7 +503,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-18",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=bancobv.com.br&sz=128",
       "summary": ""
     },
@@ -504,7 +519,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-28",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=flashapp.com.br&sz=128",
       "summary": "Executivo(a) Comercial Junior venderá soluções de RH/financeiro, exigindo criatividade, pragmatismo, trabalho em equipe e foco em resultados para impactar clientes."
     },
@@ -520,7 +535,7 @@
         "negocios"
       ],
       "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=flashapp.com.br&sz=128",
       "summary": "O Analista de Sucesso do Cliente Júnior auxiliará clientes com a plataforma Flash, exigindo criatividade, pragmatismo e foco em resultados para resolver problemas."
     },
@@ -536,7 +551,7 @@
         "negocios"
       ],
       "firstSeen": "2026-05-22",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=useinsider.com&sz=128",
       "summary": "O Estagiário de Customer Experience auxiliará equipes de marketing e engajamento do cliente, necessitando de agilidade e visão para otimizar plataformas de dados e personalização."
     },
@@ -552,7 +567,7 @@
         "negocios"
       ],
       "firstSeen": "2026-07-24",
-      "lastSeen": "2026-09-24",
+      "lastSeen": "2026-09-25",
       "logo": "https://www.google.com/s2/favicons?domain=experian.com.br&sz=128",
       "summary": "Analista de Comunicação e Treinamento Comercial Júnior (PcD) apoiará a equipe de vendas na criação e gestão de conteúdos, treinamentos e comunicações. Requer ensino superior e boa comunicação."
     }
